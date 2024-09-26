@@ -1,0 +1,250 @@
+
+
+public class Gokul{
+
+//method 
+ 	//syntax
+	 -> AcessModifier returntype methodname(){
+	  }
+
+	1.public void methodName(){
+	  System.out.println("nothing");
+	  }
+
+	2.public String methodName2(){
+	  return "gokul";
+	  }
+
+	3.public String methodName3(String names){
+	  return names;
+	  }
+
+
+//method declaration
+	//we use in interface 
+          acessModifier returntype methodeName();
+
+	//in abstract
+	  abstract returntype methodName;
+
+
+
+public static void main(String []args){
+
+
+
+//variable declare Syntax
+	datatype variableName;
+	ex: 
+	  int number;
+	  String name;
+
+
+//intializing variable
+
+          datatype variableName=value;
+
+	ex:
+		 String name="gokul";  ///default values for string is "null"
+                 int age =21;          ///default value is 0
+
+//calling method
+
+	System.out.println(methodName3());
+
+//lopss
+
+1.while loop
+2.do while
+3.for loop
+4.for each
+
+
+1.	//while loop syntax
+		while(condition){
+		}
+
+
+	  ex:
+	  int a=0;//we need to intaialize the value because then only we can able to break the loop if we not intialize its become infinite loop
+	   while(a<10){
+            a++;
+	   }
+
+2.	//Do while syntax
+	   do{
+	      }while(condition);
+
+
+	 ex:
+  	  int b=0;
+	do{
+	   b++;
+	}while(b==5);
+  
+
+3.	//for loop syntax
+	
+	for(intaialize;condition;increment or decrement){
+
+	}
+
+
+	ex:
+	for(int i=0;i<=9;i++){
+        System.out.println(i);
+	}
+	
+4.	//for each loop syntax
+	for(datatype variable: collectionreferenceName){	
+	//mostly we use for taking all datas in an array
+	}	
+	
+	ex:
+	int [] numbers={1,2,3,4,5};     ///array
+	for(int variableName:numbers ){
+
+	System.out.println(numbers);
+	}
+
+//condition Statements
+
+1.if
+2.if else
+3.else if
+4.switch b
+
+1.	//if syntax
+	 //trueaa irundha mattum tha allow pannum ulla poga
+	if(condition){
+	}
+
+	ex:
+	int a=10;
+
+	if(a==10){
+	System.out.println("the code will run");
+	}
+
+2.	//if else syntax
+
+		if(condition){
+
+		}
+		else{
+
+		}
+
+
+	ex:
+		int a=6;
+		if(a>10){
+		System.out.println("a is greater than 10");
+		}
+		else{
+		System.out.println("a is not greater than 10");
+		}
+
+
+
+
+
+3.	//else if syntax
+		if(condition){ //ithu false ana next run agum
+	         }
+		else if(condition){ //it excute if the above condtion if 
+					//this conditin is true than it exit the condtion and run next line.
+		}
+		else{//if the all condtion are false it excute
+		}
+
+
+	ex:
+		int a=10;
+	int b=11;
+	if(b <10) {
+		System.out.println("true"); ;
+	}
+	else if(a<=10) {
+		System.out.println("a is les than 10");
+	}
+	else if(b==11) {
+		System.out.println("b is equal to 10");
+	}
+	else{ 
+		System.out.println("not satisify the condition a & b");
+		}
+
+
+
+4.	//switch
+
+        switch(expresion){   ///it does not work for comparison operator
+
+	case value:
+		system.out.println("the lines");
+	break; //if we cannot give break it excute the all line below so we need to give break for every case
+		
+        case value:
+
+		system.out.println("informaiton");
+	break;
+	default:
+                system.out.println("if there is nothing then the default value ren");
+
+	}
+
+
+
+	ex:
+		int number=10;
+		
+        switch(number){
+
+	case 10:
+		system.out.println("the number contains 10");
+	break; //if we cannot give break it excute the all line below so we need to give break for every case
+		
+        case  11:
+
+		system.out.println(" the number contains 11");
+	break;
+	default:
+                system.out.println("it does not contain 10 & 11");
+
+        }
+
+
+
+///Array
+        
+        //-> aray is a datastructure 
+	//-> its stores more than one data
+	//-> but it can store only one type of datatype only
+	//-> array index start from 0
+	//-> index which means the poistion of the value store in array. It always start from 0index the first value.
+	//-> if we need to take the vlaue from the array we need index value then only we can abe to get the value from array.
+
+   //syntax
+	 datatype [] arrayName=new  datatype[size];
+   
+         int [] arrayName={1,2,3,4,5};
+
+     //intialise the value
+		int [] arrayName=new  int[4];
+		arrayName[0]=1;
+		arrayName[1]=2;
+		arrayName[2]=3;
+		arrayName[3]=4;
+
+
+
+
+
+
+
+
+
+
+}
+}
